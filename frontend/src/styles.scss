@@ -1,0 +1,59 @@
+/* You can add global styles to this file, and also import other style files */
+@import "primeng/resources/themes/lara-light-blue/theme.css";
+@import "primeng/resources/primeng.css";
+
+html, body {
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+ul[role='list'], ol[role='list']{
+  list-style: none;
+}
+
+html:focus-within{
+  scroll-behavior: smooth;
+}
+
+img, picture, svg, video, canvas{
+  max-width: 100%;
+  height: auto;
+}
+
+img, picture, svg, video, canvas{
+  vertical-align: middle;
+}
+
+img, picture, svg, video, canvas{
+  font-style: italic;
+}
+
+img, picture, svg, video, canvas{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@media (prefers-reduced-motion: reduce){
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+    transition: none;
+  }
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+html, body {
+  height: 100%;
+}

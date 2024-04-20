@@ -1,0 +1,11 @@
+:host{
+  background-color: red;
+  height: 100%;
+}
+
+.main-layout   {
+  height: 100%;
+  display: grid;
+  grid-template-columns: 300px 1fr;
+  grid-template-rows: 100px 1fr;
+}
